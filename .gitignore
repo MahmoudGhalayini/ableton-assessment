@@ -1,0 +1,10 @@
+*cache
+*.log
+*.spec
+build/
+__pycache__
+.vscode
+.env
+.coverage
+report
+*.db

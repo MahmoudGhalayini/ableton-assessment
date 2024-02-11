@@ -1,0 +1,28 @@
+[MASTER]
+
+disable=missing-docstring
+
+good-names=db,id,do_GET,do_POST
+
+ignore=.pylintrc,
+       README.md,
+       dev-requirements.txt,
+       ableton_user_management.db,
+       mypy.ini
+
+[FORMAT]
+
+max-line-length=120
+min-public-methods=0
+max-public-methods=20
+
+[DESIGN]
+
+max-args=7
+max-locals=15
+
+[MISCELLANEOUS]
+
+[SIMILARITIES]
+
+min-similarity-lines=4
